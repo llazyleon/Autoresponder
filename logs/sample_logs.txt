@@ -1,0 +1,42 @@
+[CRITICAL] Unauthorized root access detected
+[INFO] Scheduled backup completed
+[INFO] Scheduled backup completed
+[WARNING] File access pattern anomaly
+[WARNING] File access pattern anomaly
+[WARNING] File access pattern anomaly
+[WARNING] File access pattern anomaly
+[WARNING] File access pattern anomaly
+[CRITICAL] Unauthorized root access detected
+[WARNING] Suspicious outbound connection detected
+[WARNING] Suspicious outbound connection detected
+[INFO] Scheduled backup completed
+[CRITICAL] Unauthorized root access detected
+[ERROR] Multiple failed login attempts
+[CRITICAL] Unauthorized root access detected
+[INFO] Scheduled backup completed
+[INFO] Scheduled backup completed
+[INFO] User login from 192.168.0.101
+[WARNING] Suspicious outbound connection detected
+[INFO] Scheduled backup completed
+[WARNING] File access pattern anomaly
+[CRITICAL] Unauthorized root access detected
+[INFO] Scheduled backup completed
+[WARNING] Suspicious outbound connection detected
+[ERROR] Multiple failed login attempts
+[INFO] Scheduled backup completed
+[WARNING] File access pattern anomaly
+[ERROR] Multiple failed login attempts
+[WARNING] Suspicious outbound connection detected
+[ERROR] Multiple failed login attempts
+[INFO] User login from 192.168.0.101
+[ERROR] Multiple failed login attempts
+[WARNING] File access pattern anomaly
+[WARNING] File access pattern anomaly
+[INFO] User login from 192.168.0.101
+[ERROR] Multiple failed login attempts
+[CRITICAL] Unauthorized root access detected
+[INFO] Scheduled backup completed
+[ERROR] Multiple failed login attempts
+[WARNING] Suspicious outbound connection detected
+[ERROR] Multiple failed login attempts
+[CRITICAL] Unauthorized root access detected

@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>AI Threat Dashboard</title>
+    <meta http-equiv="refresh" content="5">
+    <style>
+        body { font-family: Arial, sans-serif; margin: 30px; }
+        table { width: 100%; border-collapse: collapse; margin-top: 30px; }
+        th, td { padding: 10px; border: 1px solid #ccc; }
+        th { background-color: #f2f2f2; }
+    </style>
+</head>
+<body>
+    <h1>🛡️ AI Threat Response Dashboard</h1>
+
+    <p><strong>📡 Current Log:</strong> {{ log }}</p>
+    <p><strong>🧠 Suggested Action:</strong> {{ action }}</p>
+
+    <h2>📜 History (Last 20 Logs)</h2>
+
+    <table>
+        <thead>
+            <tr>
+                <th>#</th>
+                <th>Log</th>
+                <th>Action</th>
+            </tr>
+        </thead>
+        <tbody>
+            {% for entry in history %}
+            <tr>
+                <td>{{ loop.index }}</td>
+                <td>{{ entry.log }}</td>
+                <td>{{ entry.action }}</td>
+            </tr>
+            {% else %}
+            <tr>
+                <td colspan="3">No history yet.</td>
+            </tr>
+            {% endfor %}
+        </tbody>
+    </table>
+</body>
+</html>
